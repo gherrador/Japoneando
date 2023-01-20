@@ -1,3 +1,5 @@
+# Japoneando! - Japanese Ecommerce
+
 ## About the project
 
 Full Stack personal project based on an Ecommerce selling products from  Japanese origin.
@@ -243,7 +245,7 @@ An email with the summary of your purchase will arrive at your email after compl
 
 + There are public routes:
   - Main
-  - Categories by category ID (Ornament, Kitchen Supplies, Meals, Drinks, Sweets)
+  - Categories by category ID (Ornament, Kitchen utensils, Food, Drinks, Desserts)
   - Login and user registration
   - Product detail for your Id
   - Cart
