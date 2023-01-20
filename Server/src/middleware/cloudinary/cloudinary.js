@@ -1,5 +1,5 @@
 const cloudinary = require('cloudinary').v2
-const { cloud_name, api_key_cloud, api_secret_cloud } = require('../../../config/index')
+const { variables: {cloud_name, api_key_cloud, api_secret_cloud} } = require('../../../config')
 const fs = require('fs')
 const { logger } = require('../../helpers/logger')
 

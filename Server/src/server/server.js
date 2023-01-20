@@ -14,7 +14,7 @@ app.use(fileUpload({
 /* ----------- Session ------------------ */
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
-const { MONGO_URL } = require('../../config');
+const { variables: { MONGO_URL } } = require('../../config');
 const MongoStore = require('connect-mongo')
 const advancedOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 

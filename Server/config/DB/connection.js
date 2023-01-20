@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { MONGO_URI } = require('../../../config/index')
+const { MONGO_URI } = require('../Env/variables')
 
 exports.getConnections = async() => {
     try {
