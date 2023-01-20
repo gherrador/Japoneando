@@ -1,0 +1,164 @@
+.LogIn {  
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 9.5%;
+    right: 0.5%;
+    width: 20%;
+    height: 50%;
+    min-height: 30%;
+    max-height: 90%;
+    background-color: white;  
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px #bd3133 solid;
+    z-index: 1001;
+}
+
+#btnLog{
+    margin-top: 5%;
+}
+#infoUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Loged {  
+    position: fixed;
+    top: 9.5%;
+    right: 0.5%;
+    width: 22%;
+    height: 60%;
+    min-height: 30%;
+    max-height: 90%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.75rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px #bd3133 solid;
+    overflow-y: scroll;
+    z-index: 1001;
+}
+
+#fotoLog{
+    width: 8vw;
+    height: auto;
+}
+#Reg{
+    margin: 2%;
+}
+#formLog{
+    margin-top: -4vw;
+}
+.btnLoggersProvier{    
+    width: 60%;
+    height: 30%;    
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+}
+
+@media screen and (max-width: 700px) and (min-width: 200px) {
+    .LogIn {  
+        position: fixed;
+        top: 12vw;
+        right: 2vw;
+        width: 44vw;
+        height: 68vw;
+        min-height: 40vw;
+        max-height: 60vw;
+        background-color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.5vw;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        border: 2px #bd3133 solid;
+        overflow-y: scroll;
+        z-index: 1002;
+    }
+    
+    #btnLog{
+        margin: 1vw;
+        width: 15vw;
+        height: 7vw;
+        font-size:2vw;
+    }
+    
+    .Loged {  
+        position: fixed;
+        top: 12vw;
+        right: 2vw;
+        width: 44vw;
+        height: 65vw;
+        min-height: 40vw;
+        max-height: 60vw;
+        background-color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.5vw;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        border: 2px #bd3133 solid;
+        overflow-y: scroll;
+        z-index: 1002;
+    }
+    
+    #fotoLog{
+        width: 15vw;
+        height: auto;
+    }
+    #Reg{
+        margin: 1vw;
+        width: 15vw;
+        height: 7vw;
+        font-size:2vw;
+
+    }
+    #btnLoged{
+        width: 15vw;
+        height: 7vw;
+        font-size: 2.5vw;
+        margin: 1vw;
+        padding: 1vw;
+    }
+
+    #infoUser{
+        width: 27vw;
+        font-size: 2.5vw;
+        height: 40vw;
+        margin-left: 4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 8vw 0 0 6.6vw;
+    }
+    .btnLoggersProvier{    
+        width: 60%;
+        height: 30%;    
+        display: block;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: auto;
+    }
+    
+
+}

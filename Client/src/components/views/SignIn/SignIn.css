@@ -1,0 +1,9 @@
+.Sign{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#btnReg, #btnBack{
+  margin: 1vw
+}
